@@ -1,0 +1,249 @@
+.login-container {
+  width: 1100px;
+  color: #565657;
+  position: relative;
+  top: 200px;
+  background-color: #ffffff;
+  left: 300px;
+  height:50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 30px;
+  top: 0px;
+
+}
+
+.password-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+  top: 30px;
+  background-color: #cfcccc;
+  width: 1000px;
+}
+
+.password-input-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100px;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper input[type="password"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 1000px;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper button {
+  
+  background-color: #cfcccc;
+  border: 1px solid #FFA500;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper button i {
+  color: #51390c;
+}
+
+.password-input-wrapper button:hover i {
+  color: #007bff;
+}
+
+.password-input-wrapper button:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper button:focus i {
+  color: #007bff;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper button i.fa-eye-slash {
+  display: block;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper button i.fa-eye {
+  display: none;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper input[type="password"]:focus + button i.fa-eye-slash {
+  display: none;
+  background-color: #cfcccc;
+}
+
+.password-input-wrapper input[type="password"]:focus + button i.fa-eye {
+  display: block;
+  background-color: #cfcccc;
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 1000px;
+  background-color: #cfcccc;
+}
+
+.email-input-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: #cfcccc;
+  
+}
+
+.email-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 1000px;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper button {
+  background-color: transparent;
+  border: 1px solid #FFA500;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  background-color: #cfcccc;
+  right: 10px;
+  top: 0;
+}
+
+.email-input-wrapper button i {
+  color: #51390c;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper button:hover i {
+  color: #007bff;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper button:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.email-input-wrapper button:focus i {
+  color: #007bff;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper button i.fa-eye-slash {
+  display: block;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper button i.fa-eye {
+  display: none;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper input[type="email"]:focus + button i.fa-eye-slash {
+  display: none;
+  background-color: #cfcccc;
+}
+
+.email-input-wrapper input[type="email"]:focus + button i.fa-eye {
+  display: block;
+  background-color: #cfcccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.mm{
+color: #ffffff;
+width: 1000px;
+background-color: #ffffff;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  position: relative;
+  top: 0px;
+}
+
+button[type="submit"] {
+  background-color: hwb(204 98% 0%);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  width: 90px;
+  color: red;
+  left: 300px;
+}
+
+button[type="submit"]:hover {
+  position: absolute;
+width: 462px;
+height: 61px;
+left: 489px;
+top: 852px;
+
+background: #FFFFFF;
+border-radius: 31.5px;
+}
+.bbn{
+  position:relative;
+  top: 50px;
+}
